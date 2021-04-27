@@ -34,12 +34,12 @@
     list-style: none;
     font-size: 2.5em;
     margin-right: 30px;
-    /* background-color: white; */
+    color: #fff;
     padding: 6px 15px;
     border-radius: 80px;
   }
   header ul li:hover {
-    background-color: white;
+    background-color:black;
     cursor: pointer;
   }
   
@@ -48,16 +48,25 @@
     background-size:auto;
   }
 
-  .section h1 {
-    font-size: 64px;
+  .s1 h1 {
+    font-size: 120px;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -20%);
-    background: linear-gradient(to left, #87c7df, #648896);
+    background: linear-gradient(to right, #fff, rgb(83, 80, 80));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .s1 .profile {
+    height: 70%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+
+
   
   .s2 {
     background: linear-gradient(to left top, rgb(189, 193, 199), white);
