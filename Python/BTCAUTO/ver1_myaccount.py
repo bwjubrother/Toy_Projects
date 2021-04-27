@@ -54,10 +54,12 @@ secret = "dKWhdtjm6mc0lNSxFDUsdi5gx1zSpoWxDLxCe4dz"          # 본인 값으로 
 upbit = pyupbit.Upbit(access, secret)
 
 
-### 잔고 조회
+## 잔고 조회
 # print(upbit.get_balance("KRW-XRP"))
 # print(upbit.get_balance("KRW"))
-# print(upbit.get_balances())
+balances = upbit.get_balances()
+for i in balances:
+    print(i)
 
 
 ### 매수 (예 비트코인)
